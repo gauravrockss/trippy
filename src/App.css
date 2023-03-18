@@ -64,9 +64,10 @@ h2 {
 
 .hero h1 {
     font-weight: 800;
-    background-color: white;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
+    /* background-color: white; */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
 }
 
 .hero-btn {
