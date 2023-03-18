@@ -63,9 +63,9 @@ h2 {
 }
 
 .hero h1 {
-    font-weight: 800;
+    font-weight: 750;
     background-color: white;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
 }
 
