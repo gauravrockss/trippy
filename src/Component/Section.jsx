@@ -12,7 +12,7 @@ const Section = props => {
                         className={`text-lg-start ${
                             reverse && 'flex-row-reverse'
                         } align-items-center `}>
-                        <Col lg={6} className='px-5'>
+                        <Col lg={6} className='px-lg-5 px-4'>
                             <h2>{title}</h2>
                             <p>{content}</p>
                         </Col>

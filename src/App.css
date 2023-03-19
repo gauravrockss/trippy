@@ -65,9 +65,6 @@ h2 {
 .hero h1 {
     font-weight: 800;
     color: white;
-    /* background-color: white; */
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
 }
 
 .hero-btn {
@@ -98,54 +95,39 @@ h2 {
 }
 
 /* sign up */
-a {
-    font-size: 12px;
-    color: #188cf5;
+.formsignup {
+    max-width: 350px;
+    margin: 130px auto !important;
+    border: 2px solid black;
+    padding: 32px 24px 24px;
+    background: #f1f7fe;
+    overflow: hidden;
+    border-radius: 16px;
+    color: #010101;
+}
+
+.formbtn {
+    background-color: #0066ff;
+    color: #fff;
+    border: 0;
+    border-radius: 24px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-section a {
+    font-weight: bold;
+    color: #0066ff;
+    transition: color 0.3s ease;
     text-decoration: none;
 }
 
-.wrapper {
-    margin-top: 120px;
-    display: grid;
-    place-items: center;
-}
-
-.form {
-    width: 425px;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px 1px rgba(170, 170, 170, 0.555);
-}
-
-.form-header {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.178);
-}
-
-.select {
-    width: 120px;
-    font-size: 15px;
-}
-
-.allgender {
-    width: 120px;
-    height: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.199);
-    border-radius: 5px;
-    padding: 10px 5px;
-}
-
-.signupbtn {
-    padding: 5px 60px;
-    font-size: 18px;
-    border: none;
-    background: #119f16;
-    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, 0.1);
-    color: white;
-    border-radius: 5px;
-}
-
-.signupbtn:hover {
-    background: #119f01e8;
+.form-section a:hover {
+    color: #005ce6;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 991px) {

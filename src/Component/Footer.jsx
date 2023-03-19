@@ -12,9 +12,11 @@ const Footer = () => {
                 <Container>
                     <Row>
                         <Col>
-                            <div className='d-flex justify-content-between mt-5'>
+                            <div className='d-flex flex-lg-row flex-column justify-content-lg-between align-items-center justify-content-center mt-5'>
                                 <div>
-                                    <h2>Trippy</h2>
+                                    <h2 className='text-lg-start text-center'>
+                                        Trippy
+                                    </h2>
                                     <p>Choose Your Favourite Destination</p>
                                 </div>
                                 <div className='mt-3'>
@@ -30,7 +32,7 @@ const Footer = () => {
                         </Col>
                     </Row>
                     <div className='mt-4 links'>
-                        <Row className=' '>
+                        <Row className='p-lg-0 p-4'>
                             <Col>
                                 <div className='d-flex flex-column mb-lg-0 mb-4'>
                                     <h3>Project</h3>
